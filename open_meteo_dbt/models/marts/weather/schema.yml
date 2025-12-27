@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: fct_weather_daily
+    description: "Daily aggregated weather metrics"
+
+    columns:
+      - name: weather_date
+        description: "Date of the weather observation (daily grain)"
+        tests:
+          - not_null
+          - unique
+
+      - name: avg_temperature
+        description: "Average temperature for the day"
+        tests:
+          - not_null
+
+      - name: min_temperature
+        description: "Minimum temperature for the day"
+        tests:
+          - not_null
+
+      - name: max_temperature
+        description: "Maximum temperature for the day"
+        tests:
+          - not_null
+
+      - name: record_count
+        description: "Number of raw records aggregated into the day"
+        tests:
+          - not_null

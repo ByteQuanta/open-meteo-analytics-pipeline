@@ -1,0 +1,44 @@
+# ----------------------
+# dbt
+# ----------------------
+open_meteo_dbt/target/
+open_meteo_dbt/dbt_packages/
+open_meteo_dbt/logs/
+.dbt/
+
+# ----------------------
+# Credentials & secrets
+# ----------------------
+profiles.yml
+.env
+.user.yml
+
+# ----------------------
+# Python / Conda
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+.env/
+.venv/
+venv/
+*.egg-info/
+pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------
+# OS / Editor
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------
+# Logs / Temp
+# ----------------------
+*.log
+*.tmp
+*.cache
+

@@ -1,0 +1,9 @@
+pandas
+requests
+sqlalchemy
+pymysql
+python-dotenv
+cryptography
+
+dbt-core==1.7.*
+dbt-snowflake==1.7.*

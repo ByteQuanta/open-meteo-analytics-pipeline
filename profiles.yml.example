@@ -1,0 +1,15 @@
+open_meteo_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: <SNOWFLAKE_ACCOUNT_ID>
+      user: <SNOWFLAKE_USERNAME>
+      password: <SNOWFLAKE_PASSWORD>
+      # authenticator: externalbrowser
+      role: ANALYTICS_ROLE
+      database: ETL_DEV
+      warehouse: ETL_WH
+      schema: ANALYTICS
+      threads: 4
+

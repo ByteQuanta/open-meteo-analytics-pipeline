@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: ETL_DEV
+    schema: RAW
+    tables:
+      - name: weather_raw
+        identifier: weather_raw
+        description: "Raw weather data ingested from Open-Meteo API via MySQL"

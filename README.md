@@ -174,8 +174,8 @@ dbt docs generate
 dbt docs serve
 ```
 
-```
 ## Repository Structure (Simplified)
+```
 open_meteo_pipeline/
 ├── open_meteo_dbt/
 │   ├── models/

@@ -174,6 +174,7 @@ dbt docs generate
 dbt docs serve
 ```
 
+```
 ## Repository Structure (Simplified)
 open_meteo_pipeline/
 ├── open_meteo_dbt/
@@ -188,6 +189,7 @@ open_meteo_pipeline/
 ├── profiles.yml.example
 ├── requirements.txt
 └── README.md
+```
 
 ## Author
 Designed and implemented by an analytics engineering practitioner with a strong focus on building reliable, production-oriented data systems and applying real-world defensive modeling practices.
